@@ -1,0 +1,13 @@
+body {
+  perspective: 800px;
+}
+
+div {
+  width: 100px;
+  height: 80px;
+  background-color: skyblue;
+}
+
+.rotated {
+  transform: rotate3d(1, 2, -1, 192deg);
+}
